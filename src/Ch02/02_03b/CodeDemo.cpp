@@ -1,11 +1,29 @@
 // Learning C++ 
-// Exercise 02_03
+// Exercise 02_03 Modded 
 // Using Variables, by Eduardo Corpeño 
 
 #include <iostream>
 
+int a, b = 5; // single line comment
+
+/* mulit
+line 
+comments */
+
 int main(){
-    std::cout << "Hi There!" << std::endl;
+    bool my_flag;
+    a = 7;
+    my_flag = false;
+    std::cout << "a = " << a << std::endl;
+    std::cout << "b = " << b << std::endl;
+    std::cout << "flag = " << my_flag << std::endl;
+    my_flag = true;
+    std::cout << "flag = " << my_flag << std::endl;
+    std::cout << "a + b = " << a + b << std::endl;
+    std::cout << "b - a = " << b - a << std::endl;
+    unsigned int postive;
+    postive = b -a;
+    std::cout << "b - a (unsigned) = " << postive << std::endl;
     
     std::cout << std::endl << std::endl;
     return (0);
