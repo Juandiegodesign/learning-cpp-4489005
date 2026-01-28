@@ -1,5 +1,5 @@
 // Learning C++ 
-// Challenge 01_03
+// Challenge 01_03 Modded 
 // Console Interaction, by Eduardo Corpeño 
 
 #include <iostream>
@@ -7,8 +7,9 @@
 
 int main(){
     std::string str;
+    std::cout << "Enter your name: " << std::flush;
     std::cin >> str;
-    std::cout << str;
+    std::cout << "Nice to meet you, " << str << "!" << std::endl;
 
     std::cout << std::endl << std::endl;
     return (0);
